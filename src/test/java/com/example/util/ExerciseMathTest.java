@@ -74,4 +74,8 @@ class ExerciseMathTest {
         }
     }
 
+    @Test
+    void TestFail(){
+        fail("失敗するよ");
+    }
 }
